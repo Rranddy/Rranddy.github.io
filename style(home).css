@@ -11,20 +11,8 @@ header {
 	 height:50px;
 	 margin:auto;
 }
-h1 { text-align:center;}
-h2 { text-align:center;}
-h3 { 
-	 text-align:left;
-	 font-size:1.5em;
-}
-p {font-family:sans-serif;
-	 color:#ff9933;
-}
+
 table {margin:auto;}
-form { 
-	 float:overflow;
-	 font-family:Times New Roman, serif;
-}
 a {
 	 text-decoration:none;
 	 color:#ffffff;
@@ -33,7 +21,6 @@ li { list-style-type:none;
 	 font-family:'Courgette', cursive;
 	 font-size:1em;
 }
-td {color:#ff9933;}
 nav {
 	 width:100%;
 	 text-align:center;
@@ -72,11 +59,4 @@ ul li:hover ul li {display:block;}
 	 font-weight:bolder;
 }
 #menuToggle {display:none;}
-
-#footer {
-	 font-family:arial,sans-serif;
-	 font-size:0.6em;
-	 text-align:right;
-}
-#credit td { font-size:0.65em;}
-#credit { font-size:0.65em;}
+#menuToggle:checked ~ .menu {position:absolute; left:0;}
