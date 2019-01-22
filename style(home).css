@@ -55,7 +55,6 @@ ul li:hover ul li {display:block;}
 	 position:absolute;
 	 background-color:#000000;
 	 top:40px;
-	 left:-240px;
 	 transition:all .3s ease-in-out;
 }
 .menu-icon {
@@ -73,7 +72,6 @@ ul li:hover ul li {display:block;}
 }
 #menuToggle {display:none;}
 
-#menuToggle:checked ~ .menu {position:absolute; left:0;}
 #footer {
 	 font-family:arial,sans-serif;
 	 font-size:0.6em;
