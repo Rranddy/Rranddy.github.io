@@ -1,7 +1,7 @@
 <?php
 
-$title = "Videography | _mengw_";
-$page = "Videography";
+$title = "Photography_SouthBronx | _mengw_";
+$page = "Photography_SouthBronx";
 include "includes/header.php";
 ?>
  
@@ -25,7 +25,7 @@ body {
   padding: 0 4px;
   text-align:center;
 }
-img{
+.images{
     padding:30px 40px
 }
 
@@ -46,11 +46,11 @@ img{
  
  <body>
 <!-- image header -->
-<header class="cartheader mb-5">
+<header class="SBheader mb-5">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
-                <h1 class="font-weight-bold text-white"> affair </h1>
+                <h1 class="font-weight-bold text-white"> South Bronx Fashion Show</h1>
             </div>
         </div>
     </div>
@@ -61,16 +61,16 @@ img{
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
-   	<img src="./pictures/affair/DSC_1528.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1562.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1583.jpg" width="400" height="550">
+  	<img class="images" src="./pictures/SouthBronx/DSC_3074.jpg" width="400" height="550">
+   	<img class="images" src="./pictures/SouthBronx/DSC_3042.jpg" width="650" height="450">
+   	<img class="images" src="./pictures/SouthBronx/DSC_3086.jpg" width="400" height="550">
   </div>
 </div>
 <div class="row">
   <div class="column">
-    <img src="./pictures/affair/DSC_1592.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1639.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1649.jpg" width="400" height="550">
+    <img class="images" src="./pictures/SouthBronx/DSC_3126.jpg" width="400" height="550">
+    <img class="images" src="./pictures/SouthBronx/DSC_3120.jpg" width="400" height="550">
+    <img class="images" src="./pictures/SouthBronx/DSC_3115.jpg" width="400" height="550">
   </div>  
 </div>
 
