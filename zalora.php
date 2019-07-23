@@ -1,7 +1,7 @@
 <?php
 
-$title = "Videography | _mengw_";
-$page = "Videography";
+$title = "Photography_ZaloraRun | _mengw_";
+$page = "Photography_ZaloraRun";
 include "includes/header.php";
 ?>
  
@@ -25,7 +25,7 @@ body {
   padding: 0 4px;
   text-align:center;
 }
-img{
+.images{
     padding:30px 40px
 }
 
@@ -46,11 +46,11 @@ img{
  
  <body>
 <!-- image header -->
-<header class="cartheader mb-5">
+<header class="zaloraheader mb-5">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
-                <h1 class="font-weight-bold text-white"> glamdiv </h1>
+                <h1 class="font-weight-bold text-white"> Zalora Run </h1>
             </div>
         </div>
     </div>
@@ -61,16 +61,16 @@ img{
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
-   	<img src="./pictures/affair/DSC_1528.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1562.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1583.jpg" width="400" height="550">
+   	<img class="images" src="./pictures/zalora/DSC_0905.jpg" width="400" height="550">
+    <img class="images" src="./pictures/zalora/DSC_0956.jpg" width="650" height="450">
+    <img class="images" src="./pictures/zalora/DSC_1218.jpg" width="400" height="550">
   </div>
 </div>
 <div class="row">
   <div class="column">
-    <img src="./pictures/affair/DSC_1592.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1639.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1649.jpg" width="400" height="550">
+    <img class="images" src="./pictures/zalora/DSC_0990.jpg" width="400" height="550">
+    <img class="images" src="./pictures/zalora/DSC_1338.jpg" width="650" height="450">
+    <img class="images" src="./pictures/zalora/DSC_1250.jpg" width="400" height="550">
   </div>  
 </div>
 

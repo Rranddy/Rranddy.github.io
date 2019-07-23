@@ -1,7 +1,7 @@
 <?php
 
-$title = "Videography | _mengw_";
-$page = "Videography";
+$title = "Photography_Affair | _mengw_";
+$page = "Photography_Affair";
 include "includes/header.php";
 ?>
  
@@ -25,7 +25,7 @@ body {
   padding: 0 4px;
   text-align:center;
 }
-img{
+.images{
     padding:30px 40px
 }
 
@@ -50,7 +50,7 @@ img{
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
-                <h1 class="font-weight-bold text-white"> affair </h1>
+                <h1 class="font-weight-bold text-white"> Affair </h1>
             </div>
         </div>
     </div>
@@ -61,16 +61,16 @@ img{
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
-   	<img src="./pictures/affair/DSC_1528.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1562.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1583.jpg" width="400" height="550">
+   	<img class="images" src="./pictures/affair/DSC_1528.jpg" width="400" height="550">
+    <img class="images" src="./pictures/affair/DSC_1562.jpg" width="400" height="550">
+    <img class="images" src="./pictures/affair/DSC_1583.jpg" width="400" height="550">
   </div>
 </div>
 <div class="row">
   <div class="column">
-    <img src="./pictures/affair/DSC_1592.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1639.jpg" width="400" height="550">
-    <img src="./pictures/affair/DSC_1649.jpg" width="400" height="550">
+    <img class="images" src="./pictures/affair/DSC_1592.jpg" width="400" height="550">
+    <img class="images" src="./pictures/affair/DSC_1639.jpg" width="400" height="550">
+    <img class="images" src="./pictures/affair/DSC_1649.jpg" width="400" height="550">
   </div>  
 </div>
 
