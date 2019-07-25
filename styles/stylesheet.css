@@ -244,3 +244,20 @@
             font-size: 60px;
             text-shadow: rgb(12, 12, 12) 0px 0px 15px;
         }
+
+        .SBheader {
+            height: 50vh;
+            min-height: 600px;
+            background-image: url('../pictures/DSC_3236.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .ohheader {
+            height: 50vh;
+            min-height: 600px;
+            background-image: url('../pictures/DSC_0631.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
