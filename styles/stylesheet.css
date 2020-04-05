@@ -193,8 +193,8 @@
         }
         
         .cartheader {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/phtheader.jpg');
             background-size: cover;
             background-position: center;
