@@ -180,8 +180,8 @@
         
         /*HEADER IMAGE FOR OTHER PAGES*/
         .masthead {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/Plane.jpg');
             background-size: cover;
             background-position: center;
@@ -201,62 +201,57 @@
             background-repeat: no-repeat;
         }
         .glamheader {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/DSC_8254.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
         .zaloraheader {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/DSC_1356.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
         .hersheader {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/DSC_4136.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
         .linerheader {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/DSC_3903.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
         .carheader {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/DSC_1187.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
-        
-        .cartheader .container h1 {
-            font-size: 60px;
-            text-shadow: rgb(12, 12, 12) 0px 0px 15px;
-        }
 
         .SBheader {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/DSC_3236.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
         .ohheader {
-            height: 50vh;
-            min-height: 600px;
+            max-height: 600px;
+            min-height: 400px;
             background-image: url('../pictures/DSC_0631.jpg');
             background-size: cover;
             background-position: center;
