@@ -1,18 +1,59 @@
+body,
+        html {
+            height: 100%;
+        }
 
-body {
-    background: #000000;
-    }
-.text {
-    text-align: center;
-    color: #ffffff;
-}
-.center{
-     text-align: center;
-}
-.insta{
-    color:white;
-    font-size: 17px;
-}
- .wrapper{
-    text-align: center;
- }
+        .parallax {
+            /* The image used */
+            background-image: url('../pictures/TimelineP.jpg');
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .parallax2 {
+            /* The image used */
+            background-image: url('../pictures/DSC_2100.jpg');
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .parallax3 {
+            /* The image used */
+            background-image: url('../pictures/Plane.jpg');
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parallax4 {
+            /* The image used */
+            background-image: url('../pictures/DSC_3434.jpg');
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
