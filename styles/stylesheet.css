@@ -182,7 +182,7 @@
         .masthead {
             max-height: 600px;
             min-height: 400px;
-            background-image: url('../pictures/DSC_7254.jpg');
+            background-image: url('../pictures/DSC_2417.JPG');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -257,3 +257,28 @@
             background-position: center;
             background-repeat: no-repeat;
         }
+        .popheader {
+            max-height: 600px;
+            min-height: 400px;
+            background-image: url('../pictures/DSC_3670.JPG');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .ballheader {
+            max-height: 600px;
+            min-height: 400px;
+            background-image: url('../pictures/DSC_3467.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .createheader {
+            max-height: 600px;
+            min-height: 400px;
+            background-image: url('../pictures/DSC_7254.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
