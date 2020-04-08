@@ -281,4 +281,5 @@
             background-position: center;
             background-repeat: no-repeat;
         }
+        .row:before, .row:after {display: none !important;}
         
