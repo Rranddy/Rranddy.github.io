@@ -15,6 +15,7 @@
             padding: 0 4px;
             text-align: center;
         }
+        .row:before, .row:after {display: inline-block !important;}
 
         .images {
             padding: 30px 40px
