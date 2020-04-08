@@ -1,6 +1,7 @@
 body,
         html {
             height: 100%;
+            width:100%;
         }
 
         .parallax {
@@ -9,6 +10,7 @@ body,
 
             /* Full height */
             height: 100%;
+            width:100%;
 
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
@@ -23,6 +25,7 @@ body,
 
             /* Full height */
             height: 100%;
+            width:100%;
 
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
@@ -37,6 +40,7 @@ body,
 
             /* Full height */
             height: 100%;
+            width:100%;
 
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
@@ -50,6 +54,7 @@ body,
 
             /* Full height */
             height: 100%;
+            width:100%;
 
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
