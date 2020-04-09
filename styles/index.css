@@ -12,11 +12,10 @@ html {
 
 .parallax {
   /* The image used */
-  background-image: url("../pictures/TimelineP.jpg");
+  background-image: url("../pictures/resize/TimelineP.jpg");
 
   /* Full height */
   height: 100%;
-  width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -27,7 +26,7 @@ html {
 
 .parallax2 {
   /* The image used */
-  background-image: url("../pictures/DSC_2100.jpg");
+  background-image: url("../pictures/resize/DSC_2100.jpg");
 
   /* Full height */
   height: 100%;
@@ -42,7 +41,7 @@ html {
 
 .parallax3 {
   /* The image used */
-  background-image: url("../pictures/Plane.jpg");
+  background-image: url("../pictures/resize/Plane.jpg");
 
   /* Full height */
   height: 100%;
@@ -56,7 +55,7 @@ html {
 }
 .parallax4 {
   /* The image used */
-  background-image: url("../pictures/DSC_3434.jpg");
+  background-image: url("../pictures/resize/DSC_3434.jpg");
 
   /* Full height */
   height: 100%;
