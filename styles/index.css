@@ -4,9 +4,9 @@ html {
   width: 100%;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-width:749px) {
+@media only screen and (max-width:767px) {
   .parallax .parallax2 .parallax3 .parallax4 {
-    background-attachment: inherit;
+    background-attachment: initial
    }
 }
 
@@ -21,7 +21,7 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .parallax2 {
@@ -36,7 +36,7 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .parallax3 {
@@ -51,7 +51,7 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 .parallax4 {
   /* The image used */
@@ -65,5 +65,5 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
