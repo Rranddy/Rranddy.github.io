@@ -11,10 +11,10 @@
   background-image: url("../pictures/TimelineP.jpg");
 
   /* Full height */
-  height: 900px;
+  height: 700px;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,10 +25,10 @@
   background-image: url("../pictures/DSC_2100.jpg");
 
   /* Full height */
-  height: 900px;
+  height: 700px;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,10 +39,10 @@
   background-image: url("../pictures/Plane.jpg");
 
   /* Full height */
-  height: 900px;
+  height: 700px;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,10 +52,10 @@
   background-image: url("../pictures/DSC_3434.jpg");
 
   /* Full height */
-  height: 900px;
+  height: 700px;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
