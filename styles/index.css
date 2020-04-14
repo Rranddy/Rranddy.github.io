@@ -1,8 +1,3 @@
-body,
-html {
-  height: 100%;
-  width: 100%;
-}
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media (max-width:749px) {
   .parallax .parallax2 .parallax3 .parallax4 {
