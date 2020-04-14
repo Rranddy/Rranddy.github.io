@@ -6,7 +6,7 @@ html {
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width:749px) {
   .parallax .parallax2 .parallax3 .parallax4 {
-    background-attachment: inherit;
+    background-attachment: scroll;
   }
 }
 
@@ -21,7 +21,7 @@ html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -36,7 +36,7 @@ html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,7 +51,7 @@ html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -65,7 +65,7 @@ html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
