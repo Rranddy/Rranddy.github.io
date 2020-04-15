@@ -8,7 +8,6 @@ html {
   .parallax  {
     /* The image used */
     background-image: url("../pictures/TimelineP.jpg");
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +18,6 @@ html {
   .parallax2 {
     /* The image used */
     background-image: url("../pictures/DSC_2100.jpg");
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +28,6 @@ html {
   .parallax3 {
     /* The image used */
     background-image: url("../pictures/Plane.jpg");
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +37,6 @@ html {
   .parallax4 {
     /* The image used */
     background-image: url("../pictures/DSC_3434.jpg");
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
