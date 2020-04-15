@@ -4,13 +4,18 @@ html {
   width: 100%;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed*/
-@media only screen and (max-width: 749px) {
-  .parallax .parallax2 .parallax3 .parallax4 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 800px;
+@media only screen and (max-width:749px) {
+  .parallax {
+    background-attachment: inherit;
+  }
+  .parallax2 {
+    background-attachment: inherit;
+  }
+  .parallax3 {
+    background-attachment: inherit;
+  }
+  .parallax4 {
+    background-attachment: inherit;
   }
 }
 
