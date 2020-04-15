@@ -3,38 +3,46 @@ html {
   height: 100%;
   width: 100%;
 }
-/*mobile parallex*/
-.parallax  {
-    /* The image used */
-    background-image: url("../pictures/TimelineP.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-  }
-  
-  .parallax2 {
-    /* The image used */
-    background-image: url("../pictures/DSC_2100.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-  }
-  
-  .parallax3 {
-    /* The image used */
-    background-image: url("../pictures/Plane.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-  }
-  .parallax4 {
-    /* The image used */
-    background-image: url("../pictures/DSC_3434.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-  }
+
+.parallax {
+  /* The image used */
+  background-image: url("../pictures/TimelineP.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../pictures/DSC_2100.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("../pictures/Plane.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+.parallax4 {
+  /* The image used */
+  background-image: url("../pictures/DSC_3434.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
