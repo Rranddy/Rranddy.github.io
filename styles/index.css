@@ -49,13 +49,13 @@ html {
   }
 }
 
+/*mobile parallex*/
 .parallax  {
   /* The image used */
   background-image: url("../pictures/TimelineP.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: 800px;
 }
 
@@ -65,7 +65,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: 800px;
 }
 
@@ -75,7 +74,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: 800px;
 }
 .parallax4 {
@@ -84,6 +82,5 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: 800px;
 }
