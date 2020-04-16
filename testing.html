@@ -3,10 +3,36 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="preloading.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 </head>
 
 <body>
-    
+    <div class="preload" id="preload"> 
+        <div class="logo">
+            ice-<span style="color:darkturquoise;">cubes</span>
+        </div>
+        <div class="loader-frame">
+            <!--<div class="loader1" id="loader1"></div>
+            <div class="loader2" id="loader2"></div>-->
+            <img src="./pictures/logo2.1(transparent).png" alt="logo" style="max-height:100%; max-width:100%;">
+        </div>
+    </div>
+    <script>
+        var preload = document.getElementById("preload");
+        var loading = 0;
+        var id= setInterval(frame,64);
+        function frame(){
+            if (loading ==100){
+                clearInterval(id);
+                window.open("index.html","_self");
+            }else{
+                loading=loading + 1;
+                if(loading == 90){
+                    preload.stayle.animation ="fadeout 1s ease";
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
