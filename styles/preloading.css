@@ -6,7 +6,7 @@ body{
 .preload{
     width:100%;
     height:100%;
-    background:#333;
+    background:rgb(0, 0, 0);
     position:fixed;
     top:0;
     left:0;
@@ -14,12 +14,9 @@ body{
 }
 .logo {
     width:300px;
-    height:70px;
-    margin:150px auto 50px auto;
-    font-size:50px;
-    text-shadow: -1px 2px 2px #000;
+    height:200px;
+    margin:150px auto 5px auto;
     text-align: center;
-    color: azure;
 }
 .loader-frame{
     width:70px;
@@ -33,19 +30,19 @@ body{
     border-radius:50%;
 }
 .loader1 {
-    width: 70px;
-    height:70px;
+    width: 35px;
+    height: 35px;
     border-top: 5px solid azure;
     border-bottom: 5px solid azure;
-    animation: clockwisespin 3s linear 3;
+    animation: clockwisespin 2s linear 3;
 }
 .loader2 {
-    width: 60px;
-    height:60px;
-    border-left: 5px solid darkturquoise;
-    border-right: 5px solid darkturquoise;
+    width: 25px;
+    height: 25px;
+    border-left: 5px solid rgb(255, 248, 149);
+    border-right: 5px solid rgb(255, 248, 149);
     top:5px; left:5px;
-    animation: anticlockwisespin 3s linear 3;
+    animation: anticlockwisespin 2s linear 3;
 }
 
 @keyframes clockwisespin{
