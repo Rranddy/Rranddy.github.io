@@ -1,0 +1,101 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./pictures/logo2.1(transparent).png" type="image/gif" size="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/theme.css">
+    <link rel="stylesheet" type="text/css" href="./styles/stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/layout.css">
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent bg-dark fixed-top py-1">
+            <div class="container">
+                <a class="navbar-brand py-0" href="./index.html"><img src="./pictures/logo2.1(transparent).png"
+                        alt="logo" style="max-height:4em;"> _Mengw_ </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li>
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="photography.html">Photography</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="videography.html">Videography</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="contactMe.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- page header -->
+    <div class="krosheader mb-5">
+        <div class="container">
+            <div class="row h-75 align-items-center">
+                <div class="col-12 text-center">
+                    <h2 class="font-weight-bold text-white"> KRõS </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm text-center" style="padding-bottom: 3.5em;">
+                    <img class="images" src="./pictures/kros/DSC_4683.jpg" style="max-width:500px; max-height:420px">
+                </div>
+                <div class="col-sm text-center" style="padding-bottom: 3.5em;">
+                    <img class="images" src="./pictures/kros/DSC_5157.jpg" style="max-width:500px; max-height:420px">
+                </div>
+                <div class="col-sm text-center" style="padding-bottom: 5em;">
+                    <img class="images" src="./pictures/kros/DSC_4908.jpg" style="max-width:500px; max-height:420px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm text-center" style="padding-bottom: 3.5em;">
+                    <img class="images" src="./pictures/kros/DSC_5043.jpg" style="max-width:500px; max-height:420px">
+                </div>
+                <div class="col-sm text-center" style="padding-bottom: 3.5em;">
+                    <img class="images" src="./pictures/kros/DSC_5032.jpg" style="max-width:500px; max-height:420px">
+                </div>
+                <div class="col-sm text-center" style="padding-bottom: 5em;">
+                    <img class="images" src="./pictures/kros/DSC_5059.jpg" style="max-width:500px; max-height:420px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 450);
+        });
+    </script>
+</body>
+
+</html>
